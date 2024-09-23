@@ -1,0 +1,62 @@
+/* General Page Styling */
+body {
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Education Section Styling */
+#education {
+    margin-top: 40px;
+}
+
+#education h2 {
+    font-size: 32px;
+    color: #ff4500; /* Bright orange for section title */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#education ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+#education ul li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #222; /* Slightly lighter background for list items */
+    border-radius: 8px;
+    text-align: left;
+    display: inline-block;
+    width: 60%;
+}
+
+#education ul li h3 {
+    font-size: 24px;
+    color: #00bfff; /* Cyan for educational degrees */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#education ul li p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Links and Button Hover Effects */
+a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bfff; /* Cyan on hover */
+    text-decoration: underline;
+}

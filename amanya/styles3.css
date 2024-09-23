@@ -1,0 +1,70 @@
+/* General Page Styling */
+body {
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gallery Section Styling */
+#gallery {
+    margin-top: 40px;
+}
+
+#gallery h2 {
+    font-size: 32px;
+    color: #ff4500; /* Bright orange for section title */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Gallery List Styling */
+#gallery ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the gallery images */
+    flex-wrap: wrap;
+}
+
+#gallery ul li {
+    margin: 20px;
+    background-color: #222; /* Slightly lighter background for image items */
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+#gallery ul li:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 10px rgba(255, 69, 0, 0.5); /* Orange shadow on hover */
+}
+
+/* Image Styling */
+#gallery ul li img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #ff4500; /* Orange border around images */
+    transition: border-color 0.3s ease;
+}
+
+#gallery ul li img:hover {
+    border-color: #00bfff; /* Cyan border on hover */
+}
+
+/* Links and Button Hover Effects */
+a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bfff; /* Cyan on hover */
+    text-decoration: underline;
+}
