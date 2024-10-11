@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LFC Supporters Club Contact</title>
+    <!-- Bootstrap CDN -->
+    <link href="css contact page.css" rel="stylesheet">
+    <style>
+        /* Add custom styles here */
+        .hero-image {
+            background-image: url('your_image_here.jpg');
+            background-size: cover;
+            height: 300px;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: white;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LFC Supporters Club</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Fixtures</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Image -->
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Official LFC Supporters Clubs Contact</h1>
+        <p>This is Anfield</p>
+    </div>
+</div>
+
+<!-- Contact Form Section -->
+<div class="container contact-form">
+    <h3>Contact Form</h3>
+    <form>
+        <!-- Name Fields -->
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="First Name *" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Surname *" required>
+            </div>
+        </div>
+
+        <!-- Email Fields -->
+        <div class="row">
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Email Address *" required>
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Confirm Email Address *" required>
+            </div>
+        </div>
+
+        <!-- Phone Number Field -->
+        <input type="text" class="form-control" placeholder="Phone Number" required>
+
+        <!-- Address Fields -->
+        <input type="text" class="form-control" placeholder="Address Line 1" required>
+        <input type="text" class="form-control" placeholder="Address Line 2">
+        <input type="text" class="form-control" placeholder="Address Line 3">
+
+        <!-- Country and Postal Code -->
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Country *" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Postal/Zip Code *" required>
+            </div>
+        </div>
+
+        <!-- Comment Section -->
+        <textarea class="form-control" rows="5" placeholder="Comment *" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
